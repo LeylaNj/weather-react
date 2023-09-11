@@ -37,7 +37,7 @@ export default function Weather() {
     </form>
   );
 
-  if (loaded) {
+  if (loaded === true) {
     return (
       <div>
         {form}
